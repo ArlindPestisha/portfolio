@@ -1,10 +1,5 @@
-import styled from 'styled-components';
-
-const Nav = styled.nav`
-  background: black;
-  height: 80px;
-`
-
+import {Nav} from './NavBarStyled'
+ 
 
 const NavBar = () => {
   return (
