@@ -1,12 +1,38 @@
-import {Nav} from './NavBarStyled'
- 
+import Link from "next/link";
+import { Logo } from "../../public/logo.js";
+import { Nav, NavbarContainer, NavL, NavLinks, NavLogo,NavItem } from "./NavBarStyled";
 
-const NavBar = () => {
+const NavBar = ({ href, name }) => {
   return (
     <Nav>
-      <h1>Nav</h1>
+      <NavbarContainer>
+        <NavLogo>
+          <Link href="/">
+            <a href="/">
+              <Logo />
+            </a>
+          </Link>
+        </NavLogo>
+        <NavLinks>
+          <NavItem>
+            <Link href="/home" passHref>
+              <NavL>HOME</NavL>
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link href="/portfolio" passHref>
+              <NavL>PORTFOLIO</NavL>
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link href="/contact" passHref>
+              <NavL>CONTACT ME</NavL>
+            </Link>
+          </NavItem>
+        </NavLinks>
+      </NavbarContainer>
     </Nav>
-   );
-}
- 
+  );
+};
+
 export default NavBar;
