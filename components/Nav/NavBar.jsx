@@ -15,7 +15,7 @@ const NavBar = ({ href, name }) => {
         </NavLogo>
         <NavLinks>
           <NavItem>
-            <Link href="/home" passHref>
+            <Link href="/" passHref>
               <NavL>HOME</NavL>
             </Link>
           </NavItem>

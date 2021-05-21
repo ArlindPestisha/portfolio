@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 
 //THis is for the Logo which is linked with the LinkR router package
 export const NavLogo = styled.div`
-  color: black;
+  color: #33323D;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -55,15 +55,20 @@ export const NavLinks = styled.ul`
   }
 `;
 export const NavL = styled.a`
-  color: black;
+  color: #33323d;
   text-decoration: none;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  &:hover {
+    color: #5fb4a2;
+  }
 `;
 
 export const NavItem = styled.li`
   font-family: sans-serif;
-  &::hover {
-    
-    background: red;
-    color: #010606;
-  }
 `;
