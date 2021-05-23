@@ -57,7 +57,7 @@ export const NavLinks = styled.ul`
 export const NavL = styled.a`
   color: #33323d;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family:'Public Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
