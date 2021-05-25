@@ -1,16 +1,18 @@
 import Image from "next/image";
+import Buttons from "../Button/Button";
 import { HeroWrapper } from "./HeroStyled";
 
-const Hero = () => {
+
+const Hero = ({ children }) => {
   return (
     <HeroWrapper>
       <Image
-        src="/hero.png"
+        src="/hero1.png"
         alt="Picture of the author"
         width={1110}
         height={600}
       />
-      <h2>Arlind</h2>
+      <Buttons />
     </HeroWrapper>
   );
 };

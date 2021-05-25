@@ -4,3 +4,5 @@ export const HeroWrapper = styled.div`
   display: flex;
   justify-content: center;
 `;
+
+
