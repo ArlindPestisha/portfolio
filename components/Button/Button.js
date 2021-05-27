@@ -1,15 +1,15 @@
-import { Button } from "./ButtonStyled";
+import { StyledButton } from "./ButtonStyled";
 
-const Buttons = () => {
+const Button = () => {
   return (
     <div>
-      <Button rel="noopener" primary>
+      <StyledButton rel="noopener" primary>
         Whatever
-      </Button>
+      </StyledButton>
 
-      <Button>Normal</Button>
+      <StyledButton>Normal</StyledButton>
     </div>
   );
 };
 
-export default Buttons;
+export default Button;
