@@ -5,8 +5,9 @@ import Link from "next/link";
 
 const Hero = ({ children }) => {
   const handelClick = () => {
+    // console.log( 'you clicked');
     return (
-      <Link href="/about" alt="justMe">
+      <Link href="/about" alt="justMe" target='_blank'>
         <a>ABOUT ME</a>
       </Link>
     );
