@@ -1,13 +1,13 @@
 import { StyledButton } from "./ButtonStyled";
 
-const Button = () => {
+const Button = ({ handelClick, text }) => {
   return (
     <div>
       {/* <StyledButton rel="noopener" primary>
         Whatever
       </StyledButton> */}
 
-      <StyledButton>ABOUT ME</StyledButton>
+      <StyledButton onClick={handelClick}>{text}</StyledButton>
     </div>
   );
 };
