@@ -8,7 +8,7 @@ const NavBar = ({ href, name }) => {
       <NavbarContainer>
         <NavLogo>
           <Link href="/">
-            <a href="/">
+            <a>
               <Logo />
             </a>
           </Link>
