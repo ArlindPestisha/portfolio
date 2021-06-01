@@ -1,11 +1,15 @@
-import { TextStyled } from "./TextStyled";
+import { H2, ParagraphStyled } from "./TextStyled";
 
 const Text = ({ heading, paragraph }) => {
   return (
-    <TextStyled>
-      <h1>{heading}</h1>
-      <p>{paragraph}</p>
-      </TextStyled>
+    <div>
+      <H2>
+        {heading}
+      </H2>
+      <ParagraphStyled>
+        {paragraph}
+      </ParagraphStyled>
+    </div>
   );
 };
 

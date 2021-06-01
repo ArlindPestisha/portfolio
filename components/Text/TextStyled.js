@@ -1,5 +1,30 @@
 import styled from "styled-components";
 
-export const TextStyled = styled.div`
-  font-family: sans-serif ;
+export const H2 = styled.h2`
+  font-family: "Public Sans", sans-serif;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+
+  /* identical to box height, or 105% */
+  letter-spacing: -0.357143px;
+
+  color: #33323d;
+`;
+
+export const ParagraphStyled = styled.p`
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  /* or 187% */
+
+  color: #33323d;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
 `;

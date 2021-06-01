@@ -6,6 +6,7 @@ export const HeroWrapper = styled.div`
   justify-items: center;
   order: 2;
   margin-left: 165px;
+  margin-top: 30px;
 `;
 
 export const ImageWrapper = styled.div`

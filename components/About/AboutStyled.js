@@ -14,11 +14,12 @@ export const ImageWrapper = styled.div`
 
 export const TextWrapper = styled.div`
   width: 350px;
-  height: 600px;
-   border-top-width: 2px;
-  border-top-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  
- 
+  height: 650px;
+  border-top: 2px solid #979797;
+  border-bottom: 2px solid #979797;
+  padding-top:20px
 `;
+
+export const ButtonWrapper = styled.div`
+  padding-top: 20px;
+`
