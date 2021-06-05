@@ -1,11 +1,12 @@
-import { H2, ParagraphStyled } from "./TextStyled";
+import { H2, H4, ParagraphStyled } from "./TextStyled";
 
-const Text = ({ heading, paragraph }) => {
+const Text = ({ heading, heading4 ,paragraph }) => {
   return (
     <div>
       <H2>
         {heading}
       </H2>
+      <H4>{heading4}</H4>
       <ParagraphStyled>
         {paragraph}
       </ParagraphStyled>

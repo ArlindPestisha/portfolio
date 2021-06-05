@@ -5,6 +5,8 @@ import {
   AboutWrapper,
   ButtonWrapper,
   ImageWrapper,
+  Line,
+  SectionTwoText,
   SectionWrapper,
   TextWrapper,
 } from "./AboutStyled";
@@ -25,17 +27,16 @@ const About = () => {
           <Button text="GO TO PORTFOLIO" />
         </ButtonWrapper>
       </TextWrapper>
-      <div>
-        <div>
-          <Text paragraph="Interested in doing a project together?" />
-        </div>
+      <SectionWrapper>
+        <SectionTwoText>
+          <Text heading4="Interested in doing a project together?" />
+          </SectionTwoText>
 
-        <div></div>
+        <Line></Line>
         <div>
-          <StyledButton primary >CONTACT ME</StyledButton>
+          <StyledButton primary>CONTACT ME</StyledButton>
         </div>
-        </div>
-      
+      </SectionWrapper>
     </AboutWrapper>
   );
 };
