@@ -5,7 +5,7 @@ export const StyledButton = styled.button`
   /* border-radius: 3px; */
   /* padding: 0.5rem 0;
   margin: 0.5rem 1rem; */
-  width: 200px;
+  width: 202px;
   height: 48px;
   background: #203a4c;
   color: white;
@@ -20,5 +20,11 @@ export const StyledButton = styled.button`
       color: black;
       border: 1px solid #33323d;
       box-sizing: border-box;
+      width: 168px;
+      height: 48px;
+      &:hover {
+        background: #33323d;
+        color: white;
+      }
     `}
 `;
