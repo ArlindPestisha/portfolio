@@ -31,7 +31,7 @@ export const SectionWrapper = styled.div`
   width: 1200px;
   justify-content: space-between;
   padding-top: 20px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
 `;
 
