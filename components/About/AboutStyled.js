@@ -24,6 +24,7 @@ export const TextWrapper = styled.div`
 export const ButtonWrapper = styled.div`
   margin-top: 80px;
 `;
+
 export const SectionWrapper = styled.div`
   display: flex;
   /* justify-content: space-between; */
@@ -41,26 +42,21 @@ export const SectionTwoText = styled.div`
   font-weight: bold;
   font-size: 16px;
   line-height: 42px;
-
   /* or 105% */
   letter-spacing: -0.357143px;
-
   color: #33323d;
 `;
 export const Line = styled.div`
-  /* border-top: 2px solid; */
   width: 534px;
   border-bottom: 2px solid #979797;
-
   height: 0px;
   border-top-width: 0px;
-  margin-top: 80px;
+  margin-top: 88px;
   margin-left: 40px;
 `;
 
 export const SectionTwoBtnWrapper = styled.div`
   padding-left: 30px;
-
   margin-top: 60px;
   margin-left: 25px;
 `;
