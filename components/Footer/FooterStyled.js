@@ -10,6 +10,11 @@ export const Wrapper = styled.div`
   left: 0px;
   right: 0px;
 `;
+export const LeftSide = styled.div`
+  display: flex;
+  justify-content: center;
+  
+`;
 export const FooterLogo = styled.div`
   color: white;
   justify-self: flex-start;
