@@ -13,7 +13,6 @@ export const Wrapper = styled.div`
 export const LeftSide = styled.div`
   display: flex;
   justify-content: center;
-  
 `;
 export const FooterLogo = styled.div`
   color: white;
@@ -58,3 +57,8 @@ export const FooterLinks = styled.a`
 // export const NavItem = styled.li`
 //   font-family: sans-serif;
 // `;
+
+export const RightSide = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+`;
