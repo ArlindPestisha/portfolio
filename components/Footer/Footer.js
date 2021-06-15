@@ -5,6 +5,7 @@ import {
   Wrapper,
   LeftSide,
   RightSide,
+  Github
 } from "./FooterStyled";
 import Link from "next/link";
 import { Logo } from "../../public/footerLogo.js";
@@ -35,18 +36,18 @@ const Footer = () => {
         </FooterList>
       </LeftSide>
       <RightSide>
-        <Link href="https://github.com/ArlindPestisha">
-          <a>
-            <GitHub />
-          </a>
-        </Link>
-        <div>
-          <Link href="https://www.linkedin.com/in/arlind-pestisha-83944b147/">
+        <Github>
+          <Link href="https://github.com/ArlindPestisha">
             <a>
-              <LinkedIn />
+              <GitHub />
             </a>
           </Link>
-        </div>
+        </Github>
+        <Link href="https://www.linkedin.com/in/arlind-pestisha-83944b147/">
+          <a>
+            <LinkedIn />
+          </a>
+        </Link>
       </RightSide>
     </Wrapper>
   );

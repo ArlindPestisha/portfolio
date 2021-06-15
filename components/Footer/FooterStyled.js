@@ -13,11 +13,13 @@ export const Wrapper = styled.div`
 export const LeftSide = styled.div`
   display: flex;
   justify-content: center;
+  margin-right: 400px;
 `;
 export const FooterLogo = styled.div`
   color: white;
   justify-self: flex-start;
   cursor: pointer;
+  margin-top: 22px;
   /* font-size: 1.5rem;
   align-items: center;
   display: flex;
@@ -61,4 +63,8 @@ export const FooterLinks = styled.a`
 export const RightSide = styled.div`
   display: flex;
   justify-content: space-evenly;
+  margin-top: 22px;
 `;
+export const Github = styled.div`
+  margin-right: 25px;
+`
