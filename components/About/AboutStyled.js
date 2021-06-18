@@ -10,7 +10,7 @@ export const AboutWrapper = styled.div`
 
 export const ImageWrapper = styled.div`
   width: 540px;
-  height: 650px;
+  height: 660px;
 `;
 
 export const TextWrapper = styled.div`

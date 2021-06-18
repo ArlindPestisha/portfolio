@@ -63,7 +63,7 @@ export const FooterLinks = styled.a`
 export const RightSide = styled.div`
   display: flex;
   justify-content: space-evenly;
-  margin-top: 22px;
+  margin-top: 27px;
 `;
 export const Github = styled.div`
   margin-right: 25px;

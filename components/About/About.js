@@ -17,7 +17,7 @@ const About = () => {
   return (
     <AboutWrapper>
       <ImageWrapper>
-        <Image src="/arlindpe.jpeg" alt="my-pic" width={540} height={650} />
+        <Image src="/arlind.png" alt="my-pic" width={540} height={670} />
       </ImageWrapper>
       <TextWrapper>
         <Text

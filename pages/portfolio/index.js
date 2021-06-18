@@ -1,7 +1,9 @@
+import About from "../../components/About/About";
+
 const Portfolio = () => {
   return (
     <div>
-      <h1>YEs YEs</h1>
+     <About />
     </div>
   );
 };
