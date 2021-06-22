@@ -15,7 +15,9 @@ export default function Home() {
         />
       </Head>
       <Hero />
-      <About />
+      <About
+        src='/arlind.png' width={540} height={670}
+      />
     </div>
   );
 }

@@ -1,9 +1,9 @@
-import About from "../../components/About/About";
+
 
 const Portfolio = () => {
   return (
     <div>
-     <About />
+     <ProjectCards />
     </div>
   );
 };

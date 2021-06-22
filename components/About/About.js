@@ -13,11 +13,11 @@ import {
 } from "./AboutStyled";
 import { StyledButton } from "../Button/ButtonStyled";
 
-const About = () => {
+const About = ({ src, width, height }) => {
   return (
     <AboutWrapper>
       <ImageWrapper>
-        <Image src="/arlind.png" alt="my-pic" width={540} height={670} />
+        <Image src={src} alt="my-pic" width={width} height={height} />
       </ImageWrapper>
       <TextWrapper>
         <Text
@@ -31,7 +31,7 @@ const About = () => {
       <SectionWrapper>
         <SectionTwoText>
           <Text heading4="Interested in doing a project together?" />
-          </SectionTwoText>
+        </SectionTwoText>
 
         <Line></Line>
         <SectionTwoBtnWrapper>
