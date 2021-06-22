@@ -13,7 +13,7 @@ export const H2 = styled.h2`
 `;
 
 export const ParagraphStyled = styled.p`
-  font-family: "Public Sans";
+  font-family: "Public Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
