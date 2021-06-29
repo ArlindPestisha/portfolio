@@ -10,12 +10,12 @@ export const CardsWrapper = styled.div`
 
 export const ImageWrapper = styled.div`
   width: 540px;
-  height: 660px;
+  height: 500px;
 `;
 
 export const TextWrapper = styled.div`
   width: 350px;
-  height: 500px;
+  height: 465px;
   border-top: 2px solid #979797;
   border-bottom: 2px solid #979797;
   padding-top: 30px;
