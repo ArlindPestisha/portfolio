@@ -13,6 +13,7 @@ import {
 } from "./AboutStyled";
 import { StyledButton } from "../Button/ButtonStyled";
 
+
 const About = ({ src, width, height }) => {
   return (
     <AboutWrapper>
@@ -28,6 +29,7 @@ const About = ({ src, width, height }) => {
           <StyledButton primary>GO TO PORTFOLIO</StyledButton>
         </ButtonWrapper>
       </TextWrapper>
+      
       <SectionWrapper>
         <SectionTwoText>
           <Text heading4="Interested in doing a project together?" />
