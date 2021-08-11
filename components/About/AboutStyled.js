@@ -60,3 +60,16 @@ export const SectionTwoBtnWrapper = styled.div`
   margin-top: 60px;
   margin-left: 25px;
 `;
+
+export const AnchorWrapper = styled.a`
+color: #33323d;
+  text-decoration: none;
+  font-family:'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+`

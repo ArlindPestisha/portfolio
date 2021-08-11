@@ -7,9 +7,10 @@ const Button = ({ handelClick, text }) => {
         Whatever
       </StyledButton> */}
 
-      <StyledButton onClick={handelClick}>{text}</StyledButton>
+      <StyledButton primary>
+        {text}
+      </StyledButton>
       {/* <StyledButton primary /> */}
-      
     </div>
   );
 };

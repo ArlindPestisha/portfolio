@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { StyledButton } from "../Button/ButtonStyled";
 import Text from "../Text/Text";
 import {
@@ -16,7 +17,9 @@ const LastSection = () => {
 
       <Line></Line>
       <SectionTwoBtnWrapper>
-        <StyledButton primary>CONTACT ME</StyledButton>
+        <Link href="/contact">
+          <StyledButton primary>CONTACT ME</StyledButton>
+        </Link>
       </SectionTwoBtnWrapper>
     </SectionWrapper>
   );

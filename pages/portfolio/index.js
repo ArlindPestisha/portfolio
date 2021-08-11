@@ -1,6 +1,7 @@
 import ProjectCards from "../../components/Portfolio/ProjectCards";
 import LastSection from "../../components/LastSection/LastSection";
-
+import { StyledButton } from "../../components/Button/ButtonStyled";
+import Link from "next/link";
 
 const Portfolio = () => {
   return (
@@ -11,14 +12,21 @@ const Portfolio = () => {
         height={500}
         heading="The Good List"
         paragraph="This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider."
-      />
-      <ProjectCards
-        src="/codava.svg"
-        width={540}
-        height={500}
-        heading="Codava"
-      />
-      <ProjectCards src="/grp.svg" width={540} height={500} heading="GRP" />
+      >
+        <Link href="/portfolio/Tgl">
+          <StyledButton primary>VIEW PROJECT</StyledButton>
+        </Link>
+      </ProjectCards>
+      <ProjectCards src="/codava.svg" width={540} height={500} heading="Codava">
+        <Link href="/portfolio/codava">
+          <StyledButton primary>VIEW PROJECT</StyledButton>
+        </Link>
+      </ProjectCards>
+      <ProjectCards src="/grp.svg" width={540} height={500} heading="GRP">
+        <Link href="/portfolio/grp">
+          <StyledButton primary>VIEW PROJECT</StyledButton>
+        </Link>
+      </ProjectCards>
       <LastSection />
     </div>
   );

@@ -12,7 +12,7 @@ import {
   Line
 } from "./ProjectCardsStyled";
 
-const ProjectCards = ({ src, width, height, heading, heading4, paragraph }) => {
+const ProjectCards = ({ src, width, height, heading, heading4, paragraph, children }) => {
   return (
     <CardsWrapper>
       <ImageWrapper>
@@ -27,7 +27,7 @@ const ProjectCards = ({ src, width, height, heading, heading4, paragraph }) => {
       <TextWrapper>
         <Text heading={heading} paragraph={paragraph} />
         <ButtonWrapper>
-          <StyledButton primary>VIEW PROJECT</StyledButton>
+          {children}
         </ButtonWrapper>
       </TextWrapper>
       
