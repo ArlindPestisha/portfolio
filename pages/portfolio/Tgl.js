@@ -1,9 +1,15 @@
+import { Container, WrapperImg } from "./TglStyled";
+import Image from 'next/image'
+
 const Tgl = () => {
   return (
-    <div>
-      <h1>Tgl</h1>
-    </div>
-  )
-}
+    <Container>
+      <WrapperImg>
+      <Image src='/tgl.svg' width={1110} height={500} />
+      </WrapperImg>
+      
+    </Container>
+  );
+};
 
-export default Tgl
+export default Tgl;
