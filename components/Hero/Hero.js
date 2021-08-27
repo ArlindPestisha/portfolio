@@ -1,17 +1,8 @@
 import Image from "next/image";
 import Button from "../Button/Button";
 import { HeroWrapper, ImageWrapper } from "./HeroStyled";
-// import Link from "next/link";
 
 const Hero = ({ children }) => {
-  // const handelClick = () => {
-  //   // console.log( 'you clicked');
-  //   return (
-  //     <Link href="/about" alt="justMe" target='_blank'>
-  //       <a>ABOUT ME</a>
-  //     </Link>
-  //   );
-  // };
   return (
     <HeroWrapper>
       <ImageWrapper>
@@ -22,7 +13,6 @@ const Hero = ({ children }) => {
           height={600}
         />
       </ImageWrapper>
-      {/* <Button handelClick={handelClick} text="ABOUT ME" /> */}
     </HeroWrapper>
   );
 };
