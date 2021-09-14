@@ -27,4 +27,38 @@ export const StyledButton = styled.button`
         color: white;
       }
     `}
+
+  ${(props) =>
+    props.secondary &&
+    css`
+      width: 555px;
+      height: 132px;
+      text-align: right;
+      border: none;
+      background-color: white;
+      border-bottom: 1px solid #979797;
+      border-top: 1px solid #979797;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      align-content: space-between;
+    `}
+    ${(props) =>
+    props.third &&
+    css`
+      width: 555px;
+      height: 132px;
+      text-align: left;
+      border: none;
+      background-color: white;
+      border-right: 1px solid #979797;
+      border-bottom: 1px solid #979797;
+      border-top: 1px solid #979797;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      cursor: pointer;
+    `}
 `;

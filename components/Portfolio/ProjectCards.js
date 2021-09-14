@@ -1,18 +1,22 @@
 import Text from "../Text/Text";
 import Image from "next/image";
-import { StyledButton } from "../Button/ButtonStyled";
+
 import {
   CardsWrapper,
   ImageWrapper,
   TextWrapper,
   ButtonWrapper,
-  SectionWrapper,
-  SectionTwoText,
-  SectionTwoBtnWrapper,
-  Line
 } from "./ProjectCardsStyled";
 
-const ProjectCards = ({ src, width, height, heading, heading4, paragraph, children }) => {
+const ProjectCards = ({
+  src,
+  width,
+  height,
+  heading,
+  heading4,
+  paragraph,
+  children,
+}) => {
   return (
     <CardsWrapper>
       <ImageWrapper>
@@ -26,11 +30,8 @@ const ProjectCards = ({ src, width, height, heading, heading4, paragraph, childr
       </ImageWrapper>
       <TextWrapper>
         <Text heading={heading} paragraph={paragraph} />
-        <ButtonWrapper>
-          {children}
-        </ButtonWrapper>
+        <ButtonWrapper>{children}</ButtonWrapper>
       </TextWrapper>
-      
     </CardsWrapper>
   );
 };
