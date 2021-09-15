@@ -10,14 +10,14 @@ import {
   ButtonRight,
   ImageWrapperRight,
   TextWrapperPagination,
-ButtonLeft, ImageWrapperLeft} from "./TglStyled";
+  ButtonLeft,
+  ImageWrapperLeft,
+} from "../../components/TglStyled";
 import Image from "next/image";
 import Text from "../../components/Text/Text";
 import Link from "next/link";
 import { StyledButton } from "../../components/Button/ButtonStyled";
 import LastSection from "../../components/LastSection/LastSection";
-import Pagination from "../../components/Pagination/Pagination";
-
 
 const Tgl = () => {
   return (
@@ -54,27 +54,27 @@ const Tgl = () => {
 
       {/* Fix this part in a component */}
       <WrapperPagination>
-      <Link href="/portfolio/grp">
-      <ButtonRight>
-        <ImageWrapperRight>
-          <Image src='/arrow-left.svg' width={8} height={16} />
-        </ImageWrapperRight>
-        <TextWrapperPagination>
-          <h1>GRP</h1>
-          <h4>Previous Project</h4>
-        </TextWrapperPagination>
-        </ButtonRight>
+        <Link href="/portfolio/grp">
+          <ButtonRight>
+            <ImageWrapperRight>
+              <Image src="/arrow-left.svg" width={8} height={16} />
+            </ImageWrapperRight>
+            <TextWrapperPagination>
+              <h1>GRP</h1>
+              <h4>Previous Project</h4>
+            </TextWrapperPagination>
+          </ButtonRight>
         </Link>
-        
+
         <ButtonLeft>
-        <TextWrapperPagination>
-          <h1>yes</h1>
-          <h4>yes</h4>
-        </TextWrapperPagination>
-        <ImageWrapperLeft>
-        <Image src='/arrow-right.svg' width={8} height={16} />
-        </ImageWrapperLeft>
-      </ButtonLeft> 
+          <TextWrapperPagination>
+            <h1>yes</h1>
+            <h4>yes</h4>
+          </TextWrapperPagination>
+          <ImageWrapperLeft>
+            <Image src="/arrow-right.svg" width={8} height={16} />
+          </ImageWrapperLeft>
+        </ButtonLeft>
       </WrapperPagination>
       {/* <Pagination>
         <Link href="/portfolio/Tgl">

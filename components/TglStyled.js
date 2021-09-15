@@ -48,7 +48,6 @@ export const TextWrapper2 = styled.div`
 //   padding-bottom: 30px;
 // `;
 
-
 export const WrapperPagination = styled.div`
   width: 1110px;
   height: 132px;
