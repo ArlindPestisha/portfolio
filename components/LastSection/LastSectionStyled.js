@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const SectionWrapper = styled.div`
   display: flex;
@@ -8,7 +8,7 @@ export const SectionWrapper = styled.div`
   padding-top: 20px;
   margin-top: 100px;
   margin-bottom: 50px;
-  margin-left: 120px
+  margin-left: 120px;
 `;
 
 export const SectionTwoText = styled.div`
