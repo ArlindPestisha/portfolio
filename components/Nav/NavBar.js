@@ -1,8 +1,22 @@
 import Link from "next/link";
 import { Logo } from "../../public/logo.js";
-import { Nav, NavbarContainer, NavL, NavLinks, NavLogo,NavItem } from "./NavBarStyled";
+import { Hamburger } from "../../public/hamburger";
+import { Close } from "../../public/close";
+import { useState } from "react";
+import {
+  Nav,
+  NavbarContainer,
+  NavL,
+  NavLinks,
+  NavLogo,
+  NavItem,
+  MobileIcon,
+} from "./NavBarStyled";
 
 const NavBar = ({ href, name }) => {
+  const [click, setClick] = useState(false);
+
+  const handelClick = () => setClick(!click);
   return (
     <Nav>
       <NavbarContainer>
@@ -13,7 +27,10 @@ const NavBar = ({ href, name }) => {
             </a>
           </Link>
         </NavLogo>
-        <NavLinks>
+        <MobileIcon onClick={handelClick}>
+          {click ? <Close /> : <Hamburger />}
+        </MobileIcon>
+        <NavLinks onClick={handelClick}>
           <NavItem>
             <Link href="/" passHref>
               <NavL>HOME</NavL>

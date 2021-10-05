@@ -39,7 +39,10 @@ export const Wrapper = styled.div`
 
 export const SocialW = styled.div`
   justify-content: center;
-  display: flex
-  
-  
+  display: flex;
+  padding-right: 140px;
 `;
+
+export const LinkInWrapper = styled.div`
+  padding-left: 25px;
+`

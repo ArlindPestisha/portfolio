@@ -5,6 +5,7 @@ import {
   TextWrapperP,
   Wrapper,
   SocialW,
+  LinkInWrapper,
 } from "../components/contactStyled";
 
 import Link from "next/link";
@@ -37,11 +38,13 @@ const Contact = () => {
             <GitHubWhite />
           </a>
         </Link>
-        <Link href="https://github.com/ArlindPestisha">
-          <a>
-            <GitHubWhite />
-          </a>
-        </Link>
+        <LinkInWrapper>
+          <Link href="https://github.com/ArlindPestisha">
+            <a>
+              <GitHubWhite />
+            </a>
+          </Link>
+        </LinkInWrapper>
       </SocialW>
 
       <Line></Line>
