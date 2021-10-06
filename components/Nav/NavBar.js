@@ -7,7 +7,7 @@ import {
   Nav,
   NavbarContainer,
   NavL,
-  NavLinks,
+  NavMenu,
   NavLogo,
   NavItem,
   MobileIcon,
@@ -30,7 +30,7 @@ const NavBar = ({ href, name }) => {
         <MobileIcon onClick={handelClick}>
           {click ? <Close /> : <Hamburger />}
         </MobileIcon>
-        <NavLinks onClick={handelClick}>
+        <NavMenu onClick={handelClick} click={click}>
           <NavItem>
             <Link href="/" passHref>
               <NavL>HOME</NavL>
@@ -46,7 +46,7 @@ const NavBar = ({ href, name }) => {
               <NavL>CONTACT ME</NavL>
             </Link>
           </NavItem>
-        </NavLinks>
+        </NavMenu>
       </NavbarContainer>
     </Nav>
   );
