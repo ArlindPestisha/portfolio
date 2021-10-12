@@ -16,10 +16,12 @@ const ProjectCards = ({
   heading4,
   paragraph,
   children,
+  imgStart,
+  start,
 }) => {
   return (
-    <CardsWrapper>
-      <ImageWrapper>
+    <CardsWrapper imgStart={imgStart}>
+      <ImageWrapper start={start}>
         <Image
           src={src}
           alt="my-pic"

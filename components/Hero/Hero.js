@@ -9,6 +9,7 @@ const Hero = ({ children }) => {
         <Image
           src="/carbon.svg"
           alt="Picture of the author"
+          // layout="responsive"
           width={1110}
           height={600}
         />

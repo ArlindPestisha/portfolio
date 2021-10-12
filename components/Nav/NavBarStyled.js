@@ -59,7 +59,7 @@ export const NavMenu = styled.ul`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
+    /* width: 100%; */
     height: 40vh;
     position: absolute;
     top: 60px;

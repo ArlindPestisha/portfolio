@@ -3,14 +3,17 @@ import styled from "styled-components";
 export const CardsWrapper = styled.div`
   display: flex;
   justify-content: space-evenly;
-  flex-direction: row;
+  /* flex-direction: row; */
   margin-top: 150px;
   flex-wrap: wrap;
+  flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
 `;
 
 export const ImageWrapper = styled.div`
   width: 540px;
   height: 500px;
+  display: flex;
+  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
 `;
 
 export const TextWrapper = styled.div`
