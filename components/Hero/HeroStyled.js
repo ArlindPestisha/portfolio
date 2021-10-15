@@ -8,28 +8,51 @@ export const HeroWrapper = styled.div`
   margin-left: 165px;
   margin-top: 30px;
   @media screen and (max-width: 1600px) {
-    width: 100%;
-    height: auto;
+    max-width: auto;
   }
 
   @media screen and (max-width: 1200px) {
-    width: 100%;
-    height: auto;
+    max-width: auto;
   }
   @media screen and (max-width: 960px) {
-    width: 100%;
-    height: auto;
+    max-width: auto;
+  }
+  @media screen and (max-width: 560px) {
+    max-width: auto;
+    margin: 0;
   }
 `;
 
 export const ImageWrapper = styled.div`
-  display: block;
   width: 1110px;
   height: 600px;
   display: flex;
   justify-content: center;
-  @media screen and (max-width: 550px) {
+  /* @media screen and (max-width: 1600px) {
+    width: 1110px;
+    height: 600px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    width: 1000px;
+    height: 550px;
+    margin-right: 500px;
+  }
+  @media screen and (max-width: 960px) {
+    width: 700px;
+    height: 550px;
+    margin-right: 500px;
     width: 100%;
-    height: auto;
+    max-width: 100%; 
+  }
+  */
+  @media screen and (max-width: 560px) {
+    height: 300px;
+    /* width: max-content; */
+    margin-top: 40px;
+    /* width: 100%; */
+    max-height: 100;
+    max-width: 100%;
+    overflow: hidden;
   }
 `;
