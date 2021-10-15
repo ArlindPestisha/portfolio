@@ -1,22 +1,24 @@
 import styled from "styled-components";
 
-export const Container = styled.body`
+export const Container = styled.div`
   margin: 0;
-  @media screen and (max-width: 1200px) {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
+  flex-wrap: wrap;
+  padding: 0;
+  max-width: 100%;
+  @media screen and (max-width: 1600px) {
+   
   }
-
-  @media screen and (max-width: 60em) {
-    width: 100%;
+  @media screen and (max-width: 1200px) {
+    
+  }
+  @media screen and (max-width: 960px) {
     margin: 0;
     padding: 0;
+    
   }
   @media screen and (max-width: 560px) {
-    width: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
 `;
