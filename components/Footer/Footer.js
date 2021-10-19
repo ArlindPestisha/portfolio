@@ -5,7 +5,8 @@ import {
   Wrapper,
   LeftSide,
   RightSide,
-  Github
+  Github,
+  SecondLink
 } from "./FooterStyled";
 import Link from "next/link";
 import { Logo } from "../../public/footerLogo.js";
@@ -27,9 +28,12 @@ const Footer = () => {
           <Link href="/">
             <FooterLinks>HOME</FooterLinks>
           </Link>
+          <SecondLink>
           <Link href="/portfolio">
             <FooterLinks>PORTFOLIO</FooterLinks>
           </Link>
+          </SecondLink>
+          
           <Link href="/contact">
             <FooterLinks>CONTACT</FooterLinks>
           </Link>

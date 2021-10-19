@@ -34,6 +34,8 @@ export const LeftSide = styled.div`
   }
   @media screen and (max-width: 360px) {
     margin-right: 0;
+    display: flex;
+    flex-direction: column;
   }
 `;
 export const FooterLogo = styled.div`
@@ -49,6 +51,12 @@ export const FooterLogo = styled.div`
   text-decoration: none; */
   @media screen and (max-width: 960px) {
     margin-left: 50px;
+  }
+  @media screen and (max-width: 560px) {
+    margin-left: 50px;
+  }
+  @media screen and (max-width: 360px) {
+    margin-left: 140px;
   }
 `;
 export const FooterList = styled.ul`
@@ -67,10 +75,15 @@ export const FooterList = styled.ul`
     width: 300px;
     margin-top: 35px;
     margin-right: 50px;
+    display: flex;
+    flex-direction: column;
   }
   @media screen and (max-width: 360px) {
-    width: 300px;
+    /* width: 300px; */
     margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
   }
 `;
 export const FooterLinks = styled.a`
@@ -119,3 +132,7 @@ export const RightSide = styled.div`
 export const Github = styled.div`
   margin-right: 25px;
 `;
+
+export const SecondLink = styled.div`
+margin: 20px;
+`
