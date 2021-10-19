@@ -11,6 +11,9 @@ export const AboutWrapper = styled.div`
 export const ImageWrapper = styled.div`
   width: 540px;
   height: 660px;
+  @media screen and (max-width: 960px) {
+    width: 400px;
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -33,6 +36,10 @@ export const SectionWrapper = styled.div`
   padding-top: 20px;
   margin-top: 100px;
   margin-bottom: 50px;
+  @media screen and (max-width: 960px) {
+    width: auto;
+  }
+
 `;
 
 export const SectionTwoText = styled.div`
@@ -53,6 +60,9 @@ export const Line = styled.div`
   border-top-width: 0px;
   margin-top: 88px;
   margin-left: 40px;
+  @media screen and (max-width: 960px) {
+    width: 200px;
+  }
 `;
 
 export const SectionTwoBtnWrapper = styled.div`
@@ -62,14 +72,13 @@ export const SectionTwoBtnWrapper = styled.div`
 `;
 
 export const AnchorWrapper = styled.a`
-color: #33323d;
+  color: #33323d;
   text-decoration: none;
-  font-family:'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  
-`
+`;

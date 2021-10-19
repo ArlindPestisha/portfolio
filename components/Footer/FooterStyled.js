@@ -9,11 +9,32 @@ export const Wrapper = styled.div`
   background-color: #33323d;
   left: 0px;
   right: 0px;
+  @media screen and (max-width: 960px) {
+  }
+  @media screen and (max-width: 560px) {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+  @media screen and (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
 `;
 export const LeftSide = styled.div`
   display: flex;
   justify-content: center;
   margin-right: 400px;
+  @media screen and (max-width: 960px) {
+    margin-right: 0;
+  }
+  @media screen and (max-width: 560px) {
+    margin-right: 0;
+  }
+  @media screen and (max-width: 360px) {
+    margin-right: 0;
+  }
 `;
 export const FooterLogo = styled.div`
   color: white;
@@ -26,6 +47,9 @@ export const FooterLogo = styled.div`
   margin-left: 24px; */
   /* font-weight: bold;
   text-decoration: none; */
+  @media screen and (max-width: 960px) {
+    margin-left: 50px;
+  }
 `;
 export const FooterList = styled.ul`
   display: flex;
@@ -37,7 +61,16 @@ export const FooterList = styled.ul`
   width: 400px;
 
   @media screen and (max-width: 768px) {
-    display: none;
+    width: 400px;
+  }
+  @media screen and (max-width: 560px) {
+    width: 300px;
+    margin-top: 35px;
+    margin-right: 50px;
+  }
+  @media screen and (max-width: 360px) {
+    width: 300px;
+    margin-top: 35px;
   }
 `;
 export const FooterLinks = styled.a`
@@ -54,6 +87,15 @@ export const FooterLinks = styled.a`
   &:hover {
     color: #5fb4a2;
   }
+  /* @media screen and (max-width: 960px) {
+  }
+  @media screen and (max-width: 560px) {
+    margin-top: 35px;
+    width: 300px
+  }
+  @media screen and (max-width: 360px) {
+    margin-top: 35px;
+  } */
 `;
 
 // export const NavItem = styled.li`
@@ -64,7 +106,16 @@ export const RightSide = styled.div`
   display: flex;
   justify-content: space-evenly;
   margin-top: 27px;
+  @media screen and (max-width: 960px) {
+    margin-right: 80px;
+  }
+  @media screen and (max-width: 560px) {
+    margin-right: 0;
+  }
+  @media screen and (max-width: 360px) {
+    margin-right: 0;
+  }
 `;
 export const Github = styled.div`
   margin-right: 25px;
-`
+`;

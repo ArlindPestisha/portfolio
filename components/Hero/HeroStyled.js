@@ -16,6 +16,7 @@ export const HeroWrapper = styled.div`
   }
   @media screen and (max-width: 960px) {
     max-width: auto;
+    margin-left: 80px;
   }
   @media screen and (max-width: 560px) {
     max-width: auto;
@@ -37,15 +38,19 @@ export const ImageWrapper = styled.div`
     width: 1000px;
     height: 550px;
     margin-right: 500px;
-  }
+  }*/
   @media screen and (max-width: 960px) {
+    /* height: 300px; */
+    /* width: max-content; */
+    margin-top: 40px;
+    /* width: 100%; */
+    /* max-height: 100;
+    max-width: 100%; */
+    overflow: hidden;
     width: 700px;
-    height: 550px;
-    margin-right: 500px;
-    width: 100%;
-    max-width: 100%; 
+    height: 500px;
   }
-  */
+
   @media screen and (max-width: 560px) {
     height: 300px;
     /* width: max-content; */
