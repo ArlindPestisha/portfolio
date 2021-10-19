@@ -11,6 +11,7 @@ export const StyledButton = styled.button`
   color: white;
   border: none;
   cursor: pointer;
+  transition: ease-in 0.3s;
   /* margin-right: 100px; */
 
   ${(props) =>

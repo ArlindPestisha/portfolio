@@ -31,11 +31,15 @@ export const LeftSide = styled.div`
   }
   @media screen and (max-width: 560px) {
     margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
   }
   @media screen and (max-width: 360px) {
     margin-right: 0;
     display: flex;
     flex-direction: column;
+    align-self: center;
   }
 `;
 export const FooterLogo = styled.div`
@@ -53,7 +57,7 @@ export const FooterLogo = styled.div`
     margin-left: 50px;
   }
   @media screen and (max-width: 560px) {
-    margin-left: 50px;
+    margin-left: 150px;
   }
   @media screen and (max-width: 360px) {
     margin-left: 140px;
@@ -134,5 +138,5 @@ export const Github = styled.div`
 `;
 
 export const SecondLink = styled.div`
-margin: 20px;
-`
+  margin: 20px;
+`;
