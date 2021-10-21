@@ -52,12 +52,11 @@ export const ImageWrapper = styled.div`
   }
 
   @media screen and (max-width: 560px) {
-    height: 300px;
     /* width: max-content; */
     margin-top: 40px;
     /* width: 100%; */
-    max-height: 100;
-    max-width: 100%;
+    height: auto;
+    width: auto;
     overflow: hidden;
   }
 `;

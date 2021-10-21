@@ -57,10 +57,10 @@ export const FooterLogo = styled.div`
     margin-left: 50px;
   }
   @media screen and (max-width: 560px) {
-    margin-left: 150px;
+    margin-left: 170px;
   }
   @media screen and (max-width: 360px) {
-    margin-left: 140px;
+    margin-left: 170px;
   }
 `;
 export const FooterList = styled.ul`
@@ -78,13 +78,14 @@ export const FooterList = styled.ul`
   @media screen and (max-width: 560px) {
     width: 300px;
     margin-top: 35px;
-    margin-right: 50px;
+    margin-right: 35px;
     display: flex;
     flex-direction: column;
   }
   @media screen and (max-width: 360px) {
     /* width: 300px; */
     margin-top: 35px;
+    margin-right: 35px;
     display: flex;
     flex-direction: column;
     width: 250px;
@@ -128,9 +129,13 @@ export const RightSide = styled.div`
   }
   @media screen and (max-width: 560px) {
     margin-right: 0;
+    display: flex;
+    justify-content: center;
   }
   @media screen and (max-width: 360px) {
     margin-right: 0;
+    display: flex;
+    justify-content: center;
   }
 `;
 export const Github = styled.div`
