@@ -68,6 +68,20 @@ export const NavMenu = styled.ul`
     transition: all 0.5s ease;
     background: #fff;
   }
+  @media screen and (max-width: 560px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    transition: all 0.5s ease;
+  }
+  @media screen and (max-width: 380px) {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s ease;
+  }
 `;
 export const NavL = styled.a`
   color: #33323d;
