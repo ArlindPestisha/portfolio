@@ -39,7 +39,14 @@ export const SectionWrapper = styled.div`
   @media screen and (max-width: 960px) {
     width: auto;
   }
-
+  @media screen and (max-width: 560px) {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  @media screen and (max-width: 360px) {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
 `;
 
 export const SectionTwoText = styled.div`
@@ -62,6 +69,12 @@ export const Line = styled.div`
   margin-left: 40px;
   @media screen and (max-width: 960px) {
     width: 200px;
+  }
+  @media screen and (max-width: 560px) {
+    display: none;
+  }
+  @media screen and (max-width: 360px) {
+    display: none;
   }
 `;
 
