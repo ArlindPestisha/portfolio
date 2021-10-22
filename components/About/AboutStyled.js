@@ -14,6 +14,17 @@ export const ImageWrapper = styled.div`
   @media screen and (max-width: 960px) {
     width: 400px;
   }
+  @media screen and (max-width: 580px) {
+    width: 400px;
+    height: 550px;
+    padding-bottom: 20px;
+  }
+
+  @media screen and (max-width: 380px) {
+    width: 400px;
+    height: 450px;
+    padding-bottom: 20px;
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -94,7 +105,12 @@ export const SectionTwoBtnWrapper = styled.div`
   padding-left: 30px;
   margin-top: 60px;
   margin-left: 25px;
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 580px) {
+    margin-top: 200px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  @media screen and (max-width: 380px) {
     margin-top: 200px;
     margin-left: 0px;
     padding-left: 0px;
