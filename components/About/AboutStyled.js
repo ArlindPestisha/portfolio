@@ -64,6 +64,7 @@ export const SectionTwoText = styled.div`
   letter-spacing: -0.357143px;
   color: #33323d;
   @media screen and (max-width: 560px) {
+    width: 200px;
   }
   @media screen and (max-width: 360px) {
     font-size: 20px;
