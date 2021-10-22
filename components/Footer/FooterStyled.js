@@ -20,6 +20,7 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     height: 300px;
+    margin-top: 90px;
   }
 `;
 export const LeftSide = styled.div`
@@ -60,7 +61,7 @@ export const FooterLogo = styled.div`
     margin-left: 170px;
   }
   @media screen and (max-width: 360px) {
-    margin-left: 170px;
+    margin-left: 140px;
   }
 `;
 export const FooterList = styled.ul`

@@ -42,10 +42,14 @@ export const SectionWrapper = styled.div`
   @media screen and (max-width: 560px) {
     margin-top: 40px;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
   }
   @media screen and (max-width: 360px) {
     margin-top: 40px;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
   }
 `;
 
@@ -59,6 +63,13 @@ export const SectionTwoText = styled.div`
   /* or 105% */
   letter-spacing: -0.357143px;
   color: #33323d;
+  @media screen and (max-width: 560px) {
+  }
+  @media screen and (max-width: 360px) {
+    font-size: 20px;
+    /* width: 14ch; */
+    width: 200px;
+  }
 `;
 export const Line = styled.div`
   width: 534px;
@@ -82,6 +93,11 @@ export const SectionTwoBtnWrapper = styled.div`
   padding-left: 30px;
   margin-top: 60px;
   margin-left: 25px;
+  @media screen and (max-width: 360px) {
+    margin-top: 200px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
 `;
 
 export const AnchorWrapper = styled.a`
