@@ -11,7 +11,21 @@ export const Wrapper = styled.div`
   right: 0px;
   @media screen and (max-width: 960px) {
   }
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 668px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   @media screen and (max-width: 560px) {
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     height: 300px;
@@ -29,6 +43,16 @@ export const LeftSide = styled.div`
   margin-right: 400px;
   @media screen and (max-width: 960px) {
     margin-right: 0;
+  }
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: 668px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   @media screen and (max-width: 560px) {
     margin-right: 0;
@@ -74,7 +98,7 @@ export const FooterList = styled.ul`
   width: 400px;
 
   @media screen and (max-width: 768px) {
-    width: 400px;
+    
   }
   @media screen and (max-width: 560px) {
     width: 300px;
@@ -127,6 +151,12 @@ export const RightSide = styled.div`
   margin-top: 27px;
   @media screen and (max-width: 960px) {
     margin-right: 80px;
+  }
+  @media screen and (max-width: 768px) {
+    margin: auto;
+  }
+  @media screen and (max-width: 668px) {
+    margin: auto;
   }
   @media screen and (max-width: 560px) {
     margin-right: 0;

@@ -14,6 +14,7 @@ import {
   AnchorWrapper,
 } from "./AboutStyled";
 import { StyledButton } from "../Button/ButtonStyled";
+import LastSection from "../LastSection/LastSection";
 
 const About = ({ src, width, height }) => {
   return (
@@ -33,7 +34,7 @@ const About = ({ src, width, height }) => {
         </ButtonWrapper>
       </TextWrapper>
 
-      <SectionWrapper>
+      {/* <SectionWrapper>
         <SectionTwoText>
           <Text heading4="Interested in doing a project together?" />
         </SectionTwoText>
@@ -44,7 +45,8 @@ const About = ({ src, width, height }) => {
             <StyledButton primary>CONTACT ME</StyledButton>
           </Link>
         </SectionTwoBtnWrapper>
-      </SectionWrapper>
+      </SectionWrapper> */}
+      <LastSection />
     </AboutWrapper>
   );
 };
