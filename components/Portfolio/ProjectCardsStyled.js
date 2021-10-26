@@ -4,7 +4,7 @@ export const CardsWrapper = styled.div`
   display: flex;
   justify-content: space-evenly;
   /* flex-direction: row; */
-  margin-top: 150px;
+  margin-top: 100px;
   flex-wrap: wrap;
   flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
 `;
@@ -13,7 +13,7 @@ export const ImageWrapper = styled.div`
   width: 540px;
   height: 500px;
   display: flex;
-  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+  justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
 `;
 
 export const TextWrapper = styled.div`
@@ -22,6 +22,7 @@ export const TextWrapper = styled.div`
   border-top: 2px solid #979797;
   border-bottom: 2px solid #979797;
   padding-top: 30px;
+  margin-top: 100px;
 `;
 
 export const ButtonWrapper = styled.div`

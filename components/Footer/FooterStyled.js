@@ -10,6 +10,10 @@ export const Wrapper = styled.div`
   left: 0px;
   right: 0px;
   @media screen and (max-width: 960px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -20,8 +24,8 @@ export const Wrapper = styled.div`
   @media screen and (max-width: 668px) {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
   }
 
   @media screen and (max-width: 560px) {
@@ -98,7 +102,10 @@ export const FooterList = styled.ul`
   width: 400px;
 
   @media screen and (max-width: 768px) {
-    
+    width: 300px;
+
+    margin-right: 35px;
+    display: flex;
   }
   @media screen and (max-width: 560px) {
     width: 300px;
@@ -159,12 +166,10 @@ export const RightSide = styled.div`
     margin: auto;
   }
   @media screen and (max-width: 560px) {
-    margin-right: 0;
     display: flex;
     justify-content: center;
   }
   @media screen and (max-width: 360px) {
-    margin-right: 0;
     display: flex;
     justify-content: center;
   }

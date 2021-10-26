@@ -16,9 +16,19 @@ export const HeroWrapper = styled.div`
   }
   @media screen and (max-width: 960px) {
     max-width: auto;
-    margin-left: 80px;
+    margin: 0px;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0px;
+  }
+  @media screen and (max-width: 668px) {
+    margin: 0px;
   }
   @media screen and (max-width: 560px) {
+    max-width: auto;
+    margin: 0;
+  }
+  @media screen and (max-width: 360px) {
     max-width: auto;
     margin: 0;
   }
@@ -47,8 +57,18 @@ export const ImageWrapper = styled.div`
     /* max-height: 100;
     max-width: 100%; */
     overflow: hidden;
-    width: 700px;
-    height: 500px;
+    height: auto;
+    width: auto;
+  }
+  @media screen and (max-width: 768px) {
+    overflow: hidden;
+    height: auto;
+    width: auto;
+  }
+  @media screen and (max-width: 668px) {
+    overflow: hidden;
+    height: auto;
+    width: auto;
   }
 
   @media screen and (max-width: 560px) {

@@ -94,6 +94,10 @@ export const SectionTwoBtnWrapper = styled.div`
   padding-left: 30px;
   margin-top: 60px;
   margin-left: 25px;
+  @media screen and (max-width: 960px) {
+    margin-right: 20px;
+    
+  }
   @media screen and (max-width: 780px) {
     margin-right: 20px;
     margin-top: 85px;
