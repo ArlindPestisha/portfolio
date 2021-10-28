@@ -4,9 +4,15 @@ export const CardsWrapper = styled.div`
   display: flex;
   justify-content: space-evenly;
   /* flex-direction: row; */
-  margin-top: 100px;
+  margin-top: 150px;
   flex-wrap: wrap;
   flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
+  @media screen and (max-width: 960px) {
+    margin-top: 80px;
+  }
+  @media screen and (max-width: 960px) {
+    margin-top: 80px;
+  }
 `;
 
 export const ImageWrapper = styled.div`
@@ -22,7 +28,9 @@ export const TextWrapper = styled.div`
   border-top: 2px solid #979797;
   border-bottom: 2px solid #979797;
   padding-top: 30px;
-  margin-top: 100px;
+  @media screen and (max-width: 960px) {
+    margin-top: 80px;
+  }
 `;
 
 export const ButtonWrapper = styled.div`
