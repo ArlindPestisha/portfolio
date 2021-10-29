@@ -3,6 +3,20 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
+  @media screen and (max-width: 960px) {
+    display: flex;
+  }
+  @media screen and (max-width: 760px) {
+    display: flex;
+  }
+  @media screen and (max-width: 560px) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media screen and (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const WrapperImg = styled.div`
@@ -10,6 +24,20 @@ export const WrapperImg = styled.div`
   height: 500px;
   margin-left: 170px;
   margin-top: 30px;
+  @media screen and (max-width: 760px) {
+    max-width: fit-content;
+    margin-left: 0;
+  }
+  @media screen and (max-width: 560px) {
+    max-width: fit-content;
+    margin-left: 0px;
+    height: auto;
+  }
+  @media screen and (max-width: 360px) {
+    max-width: fit-content;
+    margin-left: 0px;
+    height: auto;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -18,6 +46,17 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   margin-left: 170px;
+  @media screen and (max-width: 760px) {
+    margin-left: 50px;
+  }
+  @media screen and (max-width: 560px) {
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    align-items: flex-start;
+  }
+  @media screen and (max-width: 360px) {
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -27,6 +66,14 @@ export const TextWrapper = styled.div`
   border-bottom: 2px solid #979797;
   margin-right: 100px;
   margin-bottom: 370px;
+  @media screen and (max-width: 760px) {
+  }
+  @media screen and (max-width: 560px) {
+    margin-bottom: 0px;
+  }
+  @media screen and (max-width: 360px) {
+    margin-bottom: 0px;
+  }
 `;
 
 export const ButtonWrapper = styled.div`
@@ -42,6 +89,15 @@ export const TextWrapper2 = styled.div`
   }
   margin-left: 50px;
   margin-bottom: 800px;
+  @media screen and (max-width: 760px) {
+  }
+  @media screen and (max-width: 560px) {
+    margin-bottom: 0px;
+    width: 400px;
+    margin-left: 0px;
+  }
+  @media screen and (max-width: 360px) {
+  }
 `;
 
 // export const ImageWrapper2 = styled.div`

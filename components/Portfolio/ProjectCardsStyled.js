@@ -7,11 +7,17 @@ export const CardsWrapper = styled.div`
   margin-top: 150px;
   flex-wrap: wrap;
   flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
-  @media screen and (max-width: 960px) {
+  /* @media screen and (max-width: 960px) {
     margin-top: 80px;
+  } */
+  @media screen and (max-width: 760px) {
+    margin-top: 50px;
   }
-  @media screen and (max-width: 960px) {
-    margin-top: 80px;
+  @media screen and (max-width: 560px) {
+    margin-top: 0px;
+  }
+  @media screen and (max-width: 360px) {
+    margin-top: 0px;
   }
 `;
 
@@ -28,8 +34,20 @@ export const TextWrapper = styled.div`
   border-top: 2px solid #979797;
   border-bottom: 2px solid #979797;
   padding-top: 30px;
-  @media screen and (max-width: 960px) {
+  /* @media screen and (max-width: 960px) {
     margin-top: 80px;
+  } */
+  @media screen and (max-width: 860px) {
+    margin-top: 80px;
+  }
+  @media screen and (max-width: 760px) {
+    margin-top: 80px;
+  }
+  @media screen and (max-width: 560px) {
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 360px) {
+    margin-top: 0px;
   }
 `;
 
