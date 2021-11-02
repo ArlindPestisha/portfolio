@@ -111,6 +111,17 @@ export const WrapperPagination = styled.div`
   margin-top: 100px;
   display: flex;
   flex-direction: row;
+  @media screen and (max-width: 560px) {
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  @media screen and (max-width: 360px) {
+    max-width: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
 `;
 
 export const ButtonLeft = styled.button`

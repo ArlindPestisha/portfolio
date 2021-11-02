@@ -6,7 +6,7 @@ import {
   LeftSide,
   RightSide,
   Github,
-  SecondLink
+  SecondLink,
 } from "./FooterStyled";
 import Link from "next/link";
 import { Logo } from "../../public/footerLogo.js";
@@ -29,13 +29,13 @@ const Footer = () => {
             <FooterLinks>HOME</FooterLinks>
           </Link>
           <SecondLink>
-          <Link href="/portfolio">
-            <FooterLinks>PORTFOLIO</FooterLinks>
-          </Link>
+            <Link href="/portfolio">
+              <FooterLinks>PORTFOLIO</FooterLinks>
+            </Link>
           </SecondLink>
-          
+
           <Link href="/contact">
-            <FooterLinks>CONTACT</FooterLinks>
+            <FooterLinks>CONTACT ME</FooterLinks>
           </Link>
         </FooterList>
       </LeftSide>
@@ -56,6 +56,5 @@ const Footer = () => {
     </Wrapper>
   );
 };
-
 
 export default Footer;

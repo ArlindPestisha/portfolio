@@ -10,21 +10,26 @@ export const SectionWrapper = styled.div`
   margin-bottom: 50px;
   margin-left: 120px;
   @media screen and (max-width: 960px) {
-    width: auto;
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
   }
   @media screen and (max-width: 780px) {
     display: flex;
-    max-width: auto;
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
     align-items: center;
     margin-left: 0;
   }
   @media screen and (max-width: 680px) {
     display: flex;
-    max-width: auto;
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
     align-items: center;
     margin-left: 0;
   }
   @media screen and (max-width: 560px) {
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
     margin-top: 40px;
     margin-bottom: 0px;
     display: flex;

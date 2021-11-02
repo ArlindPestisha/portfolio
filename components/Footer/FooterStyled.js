@@ -176,6 +176,7 @@ export const RightSide = styled.div`
 `;
 export const Github = styled.div`
   margin-right: 25px;
+  
 `;
 
 export const SecondLink = styled.div`
