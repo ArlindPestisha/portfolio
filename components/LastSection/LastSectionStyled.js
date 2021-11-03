@@ -101,7 +101,6 @@ export const SectionTwoBtnWrapper = styled.div`
   margin-left: 25px;
   @media screen and (max-width: 960px) {
     margin-right: 20px;
-    
   }
   @media screen and (max-width: 780px) {
     margin-right: 20px;
@@ -116,6 +115,8 @@ export const SectionTwoBtnWrapper = styled.div`
     margin-top: 200px;
     display: flex;
     align-items: center;
+    margin-left: 0px;
+    padding-left: 0px;
   }
 
   @media screen and (max-width: 380px) {

@@ -53,6 +53,14 @@ export const TextWrapper = styled.div`
 
 export const ButtonWrapper = styled.div`
   margin-top: 80px;
+  @media screen and (max-width: 560px) {
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: 360px) {
+    display: flex;
+    justify-content: center;
+  }
 `;
 // export const SectionWrapper = styled.div`
 //   display: flex;

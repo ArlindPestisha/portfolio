@@ -8,6 +8,7 @@ export const Container = styled.div`
   }
   @media screen and (max-width: 760px) {
     display: flex;
+    flex-direction: column;
   }
   @media screen and (max-width: 560px) {
     display: flex;
@@ -27,6 +28,7 @@ export const WrapperImg = styled.div`
   @media screen and (max-width: 760px) {
     max-width: fit-content;
     margin-left: 0;
+    height: auto;
   }
   @media screen and (max-width: 560px) {
     max-width: fit-content;
@@ -48,12 +50,18 @@ export const Wrapper = styled.div`
   margin-left: 170px;
   @media screen and (max-width: 760px) {
     margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    margin-left: 30px;
   }
   @media screen and (max-width: 560px) {
     display: flex;
     flex-direction: column;
-    height: 2000px;
+    height: 1700px;
     align-items: flex-start;
+    margin-left: 30px;
   }
   @media screen and (max-width: 360px) {
   }
@@ -67,17 +75,34 @@ export const TextWrapper = styled.div`
   margin-right: 100px;
   margin-bottom: 370px;
   @media screen and (max-width: 760px) {
+    margin-bottom: 0;
+    width: 620px;
+    height: 420px;
   }
   @media screen and (max-width: 560px) {
+    margin-top: 30px;
     margin-bottom: 0px;
+    width: 450px;
   }
   @media screen and (max-width: 360px) {
     margin-bottom: 0px;
+    margin-top: 30px;
+    width: 280px;
+    height: 600px;
   }
 `;
 
 export const ButtonWrapper = styled.div`
   margin-top: 80px;
+  @media screen and (max-width: 760px) {
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 560px) {
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 360px) {
+    margin-top: 30px;
+  }
 `;
 
 export const TextWrapper2 = styled.div`
@@ -90,6 +115,9 @@ export const TextWrapper2 = styled.div`
   margin-left: 50px;
   margin-bottom: 800px;
   @media screen and (max-width: 760px) {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    height: none;
   }
   @media screen and (max-width: 560px) {
     margin-bottom: 0px;
@@ -97,6 +125,9 @@ export const TextWrapper2 = styled.div`
     margin-left: 0px;
   }
   @media screen and (max-width: 360px) {
+    margin-bottom: 0px;
+    width: 400px;
+    margin-left: 0px;
   }
 `;
 
@@ -111,6 +142,12 @@ export const WrapperPagination = styled.div`
   margin-top: 100px;
   display: flex;
   flex-direction: row;
+  @media screen and (max-width: 760px) {
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
   @media screen and (max-width: 560px) {
     max-width: -moz-available;
     max-width: -webkit-fill-available;
@@ -169,4 +206,13 @@ export const TextWrapperPagination = styled.div`
   width: 138px;
   height: 66px;
   line-height: 9px;
+`;
+
+export const TextColor = styled.div`
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5fb4a2;
 `;

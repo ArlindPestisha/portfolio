@@ -14,15 +14,15 @@ export const ImageWrapper = styled.div`
   @media screen and (max-width: 960px) {
     width: 400px;
   }
-  @media screen and (max-width: 580px) {
+  @media screen and (max-width: 560px) {
     width: 400px;
-    height: 550px;
+    height: auto;
     padding-bottom: 20px;
   }
 
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 360px) {
     width: 400px;
-    height: 450px;
+    height: auto;
     padding-bottom: 20px;
   }
 `;

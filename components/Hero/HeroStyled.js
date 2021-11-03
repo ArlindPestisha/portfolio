@@ -75,8 +75,8 @@ export const ImageWrapper = styled.div`
     /* width: max-content; */
     margin-top: 40px;
     /* width: 100%; */
-    height: auto;
-    width: auto;
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
     overflow: hidden;
   }
 `;
