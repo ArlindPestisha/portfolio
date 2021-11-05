@@ -3,39 +3,49 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
-  @media screen and (max-width: 960px) {
+  width: auto;
+  @media screen and (max-width: 980px) {
     display: flex;
+    justify-content: start;
+    width: auto;
   }
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 780px) {
     display: flex;
     flex-direction: column;
   }
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 580px) {
     display: flex;
     flex-direction: column;
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 380px) {
     display: flex;
     flex-direction: column;
   }
 `;
 
 export const WrapperImg = styled.div`
-  width: 1110px;
-  height: 500px;
+  width: auto;
+  height: auto;
+  /* width: 1110px;
+  height: 500px; */
   margin-left: 170px;
   margin-top: 30px;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     max-width: fit-content;
     margin-left: 0;
     height: auto;
   }
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 780px) {
+    max-width: fit-content;
+    margin-left: 0;
+    height: auto;
+  }
+  @media screen and (max-width: 580px) {
     max-width: fit-content;
     margin-left: 0px;
     height: auto;
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 380px) {
     max-width: fit-content;
     margin-left: 0px;
     height: auto;
@@ -44,11 +54,11 @@ export const WrapperImg = styled.div`
 
 export const Wrapper = styled.div`
   width: 1110px;
-  height: 1192px;
+  height: auto;
   display: flex;
   align-items: center;
   margin-left: 170px;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     margin-left: 50px;
     display: flex;
     flex-direction: column;
@@ -56,77 +66,87 @@ export const Wrapper = styled.div`
     align-items: flex-start;
     margin-left: 30px;
   }
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 780px) {
+    margin-left: 50px;
     display: flex;
     flex-direction: column;
-    height: 1700px;
+    height: auto;
     align-items: flex-start;
     margin-left: 30px;
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 580px) {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    margin-left: 30px;
+  }
+  @media screen and (max-width: 380px) {
   }
 `;
 
 export const TextWrapper = styled.div`
   width: 350px;
-  height: 600px;
-  border-top: 2px solid #979797;
-  border-bottom: 2px solid #979797;
+  height: auto;
+  /* border-top: 2px solid #979797;
+  border-bottom: 2px solid #979797; */
   margin-right: 100px;
-  margin-bottom: 370px;
-  @media screen and (max-width: 760px) {
+  /* margin-bottom: 370px; */
+  @media screen and (max-width: 780px) {
     margin-bottom: 0;
     width: 620px;
     height: 420px;
   }
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 580px) {
     margin-top: 30px;
     margin-bottom: 0px;
     width: 450px;
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 380px) {
     margin-bottom: 0px;
     margin-top: 30px;
     width: 280px;
-    height: 600px;
+    height: auto;
   }
 `;
 
 export const ButtonWrapper = styled.div`
   margin-top: 80px;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 780px) {
     margin-top: 30px;
   }
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 580px) {
     margin-top: 30px;
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 380px) {
     margin-top: 30px;
   }
 `;
 
 export const TextWrapper2 = styled.div`
   width: 635px;
-  height: 250px;
+  height: auto;
+  margin-bottom: 180px;
   ${
     "" /* border-top: 2px solid #979797;
   border-bottom: 2px solid #979797; */
   }
   margin-left: 50px;
-  margin-bottom: 800px;
-  @media screen and (max-width: 760px) {
+  /* margin-bottom: 800px; */
+  @media screen and (max-width: 780px) {
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: 0;
+    width: 62ch;
     height: none;
   }
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 580px) {
     margin-bottom: 0px;
-    width: 400px;
+    width: 60ch;
     margin-left: 0px;
   }
-  @media screen and (max-width: 360px) {
-    margin-bottom: 0px;
-    width: 400px;
+  @media screen and (max-width: 380px) {
+    margin-bottom: 40px;
+    width: min-content;
     margin-left: 0px;
   }
 `;
@@ -142,19 +162,19 @@ export const WrapperPagination = styled.div`
   margin-top: 100px;
   display: flex;
   flex-direction: row;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 780px) {
     max-width: -moz-available;
     max-width: -webkit-fill-available;
     margin-left: 0px;
     margin-top: 0px;
   }
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 580px) {
     max-width: -moz-available;
     max-width: -webkit-fill-available;
     margin-left: 0px;
     margin-top: 0px;
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 380px) {
     max-width: auto;
     margin-left: 0px;
     margin-top: 0px;

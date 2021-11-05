@@ -1,8 +1,41 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 1110px;
-  margin-left: 160px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  /* margin-left: 160px; */
+  @media screen and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    max-height: auto;
+    max-width: auto;
+    margin-left: 50px;
+  }
+  @media screen and (max-width: 980px) {
+    display: flex;
+    flex-direction: column;
+    max-height: auto;
+    max-width: auto;
+    margin-left: 50px;
+  }
+  @media screen and (max-width: 780px) {
+    display: flex;
+    flex-direction: column;
+    max-height: auto;
+    max-width: auto;
+    margin-left: 50px;
+  }
+  @media screen and (max-width: 580px) {
+    display: flex;
+    flex-direction: column;
+    max-height: auto;
+    max-width: auto;
+    margin-left: 50px;
+  }
   @media screen and (max-width: 380px) {
     display: flex;
     flex-direction: column;
@@ -18,10 +51,30 @@ export const Line = styled.div`
   height: 0px;
   border-top-width: 0px;
   margin-top: 88px;
+  @media screen and (max-width: 1024px) {
+    margin-right: 20px;
+    margin-top: 40px;
+    width: auto;
+  }
+  @media screen and (max-width: 980px) {
+    margin-right: 20px;
+    margin-top: 40px;
+    width: auto;
+  }
+  @media screen and (max-width: 780px) {
+    margin-right: 20px;
+    margin-top: 40px;
+    width: auto;
+  }
+  @media screen and (max-width: 580px) {
+    margin-right: 20px;
+    margin-top: 40px;
+    width: auto;
+  }
   @media screen and (max-width: 380px) {
     margin-right: 20px;
     margin-top: 40px;
-    width: 260px;
+    width: auto;
   }
 `;
 
@@ -44,6 +97,18 @@ export const TextWrapperP = styled.p`
   letter-spacing: 0px;
   text-align: left;
   color: #33323d;
+  /* @media screen and (max-width: 380px) {
+    width: auto;
+  } */
+  @media screen and (max-width: 980px) {
+    width: auto;
+  }
+  @media screen and (max-width: 780px) {
+    width: auto;
+  }
+  @media screen and (max-width: 580px) {
+    width: auto;
+  }
   @media screen and (max-width: 380px) {
     width: 250px;
   }
@@ -51,8 +116,24 @@ export const TextWrapperP = styled.p`
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: start;
+  flex-wrap: wrap;
   padding-top: 50px;
+  @media screen and (max-width: 980px) {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+  }
+  @media screen and (max-width: 780px) {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+  }
+  @media screen and (max-width: 580px) {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+  }
   @media screen and (max-width: 380px) {
     display: flex;
     flex-direction: column;
@@ -61,12 +142,28 @@ export const Wrapper = styled.div`
 `;
 
 export const SocialW = styled.div`
+  width: 500px;
+  margin-top: auto;
   justify-content: center;
   display: flex;
-  padding-right: 140px;
+  align-self: baseline;
+  /* padding-right: 140px; */
+  @media screen and (max-width: 980px) {
+    width: auto;
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 780px) {
+    width: auto;
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 580px) {
+    width: auto;
+    margin-top: 100px;
+  }
+
   @media screen and (max-width: 380px) {
-    width: 250px;
-    margin-top: 250px;
+    width: auto;
+    margin-top: 300px;
   }
 `;
 
