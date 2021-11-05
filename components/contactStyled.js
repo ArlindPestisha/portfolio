@@ -160,6 +160,10 @@ export const SocialW = styled.div`
     width: auto;
     margin-top: 100px;
   }
+  @media screen and (max-width: 480px) {
+    width: auto;
+    margin-top: 200px;
+  }
 
   @media screen and (max-width: 380px) {
     width: auto;

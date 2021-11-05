@@ -11,6 +11,7 @@ import {
 import Link from "next/link";
 
 import { GitHubWhite } from "../public/githubWhite";
+import { LinkedInWhite } from "../public/linkedinWhite";
 
 const Contact = () => {
   return (
@@ -44,9 +45,9 @@ const Contact = () => {
           </a>
         </Link>
         <LinkInWrapper>
-          <Link href="https://github.com/ArlindPestisha">
+          <Link href="https://www.linkedin.com/in/arlind-pestisha-83944b147/">
             <a>
-              <GitHubWhite />
+              <LinkedInWhite />
             </a>
           </Link>
         </LinkInWrapper>
