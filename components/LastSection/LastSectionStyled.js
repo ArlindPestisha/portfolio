@@ -12,6 +12,7 @@ export const SectionWrapper = styled.div`
   @media screen and (max-width: 960px) {
     max-width: -moz-available;
     max-width: -webkit-fill-available;
+    
   }
   @media screen and (max-width: 780px) {
     display: flex;

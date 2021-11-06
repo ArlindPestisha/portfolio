@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -54,33 +53,30 @@ export const WrapperImg = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  width: 1110px;
+  width: auto;
   height: auto;
   display: flex;
   align-items: center;
   margin-left: 170px;
   @media screen and (max-width: 980px) {
-    margin-left: 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
     align-items: flex-start;
-    margin-left: 30px;
+    margin-left: auto;
   }
   @media screen and (max-width: 780px) {
-    margin-left: 50px;
     display: flex;
     flex-direction: column;
     height: auto;
-    align-items: flex-start;
-    margin-left: 30px;
+    margin-left: 0px;
   }
   @media screen and (max-width: 580px) {
     display: flex;
     flex-direction: column;
     height: auto;
     align-items: flex-start;
-    margin-left: 30px;
+    margin-left: 0px;
   }
   @media screen and (max-width: 380px) {
   }
@@ -93,20 +89,31 @@ export const TextWrapper = styled.div`
   border-bottom: 2px solid #979797; */
   margin-right: 100px;
   /* margin-bottom: 370px; */
+  @media screen and (max-width: 980px) {
+    margin-bottom: 0;
+    width: auto;
+    height: auto;
+  }
   @media screen and (max-width: 780px) {
     margin-bottom: 0;
-    width: 620px;
-    height: 420px;
+    width: auto;
+    height: auto;
   }
   @media screen and (max-width: 580px) {
     margin-top: 30px;
     margin-bottom: 0px;
-    width: 450px;
+    width: auto;
+  }
+  @media screen and (max-width: 480px) {
+    margin-bottom: 0px;
+    width: auto;
+    margin-left: 0px;
+    height: auto;
   }
   @media screen and (max-width: 380px) {
     margin-bottom: 0px;
     margin-top: 30px;
-    width: 280px;
+    width: auto;
     height: auto;
   }
 `;
@@ -137,17 +144,24 @@ export const TextWrapper2 = styled.div`
   @media screen and (max-width: 780px) {
     margin-bottom: 0px;
     margin-left: 0;
-    width: 62ch;
+    width: auto;
     height: none;
   }
   @media screen and (max-width: 580px) {
     margin-bottom: 0px;
-    width: 60ch;
+    width: auto;
     margin-left: 0px;
+    height: auto;
+  }
+  @media screen and (max-width: 480px) {
+    margin-bottom: 0px;
+    width: auto;
+    margin-left: 0px;
+    height: auto;
   }
   @media screen and (max-width: 380px) {
     margin-bottom: 40px;
-    width: min-content;
+    width: auto;
     margin-left: 0px;
   }
 `;
@@ -226,7 +240,11 @@ export const TextWrapperPagination = styled.div`
   font-family: sans-serif;
   /* width: 138px;
   height: 66px;
-  line-height: 9px; */
+  line-height: 9px;
+  @media screen and (max-width: 560px) {
+    width: auto;
+    height: auto;
+    line-height: 0px; */
 `;
 
 export const TextColor = styled.div`
