@@ -21,10 +21,10 @@ const Portfolio = () => {
         src="/codava.svg"
         width={540}
         height={500}
-        heading="Codava"
+        heading="Portfolio"
         paragraph="This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider."
       >
-        <Link href="/portfolio/codava">
+        <Link href="/portfolio/PortfolioCase">
           <StyledButton primary>VIEW PROJECT</StyledButton>
         </Link>
       </ProjectCards>
@@ -32,10 +32,10 @@ const Portfolio = () => {
         src="/grp.svg"
         width={540}
         height={500}
-        heading="GRP"
+        heading="Find Your Movie"
         paragraph="This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider."
       >
-        <Link href="/portfolio/grp">
+        <Link href="/portfolio/FindMovie">
           <StyledButton primary>VIEW PROJECT</StyledButton>
         </Link>
       </ProjectCards>

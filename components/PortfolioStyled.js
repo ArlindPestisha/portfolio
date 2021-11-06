@@ -223,13 +223,13 @@ export const ImageWrapperLeft = styled.div`
 
 export const TextWrapperPagination = styled.div`
   font-family: sans-serif;
-  width: 138px;
-  height: 66px;
-  line-height: 9px;
+  /* width: 138px;
+  height: 66px; */
+  /* line-height: 9px; */
   @media screen and (max-width: 560px) {
-    width: auto;
-    height: auto;
-    line-height: 0px;
+    /* width: 0;
+    height: 0;
+    line-height: 0px; */
   }
 `;
 

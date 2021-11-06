@@ -1,3 +1,4 @@
+
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -226,11 +227,6 @@ export const TextWrapperPagination = styled.div`
   width: 138px;
   height: 66px;
   line-height: 9px;
-  @media screen and (max-width: 560px) {
-    width: auto;
-    height: auto;
-    line-height: 0px;
-  }
 `;
 
 export const TextColor = styled.div`

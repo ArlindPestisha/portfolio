@@ -13,7 +13,6 @@ export const Container = styled.div`
     flex-direction: column;
     max-height: auto;
     max-width: auto;
-   
   }
   @media screen and (max-width: 980px) {
     display: flex;
@@ -27,7 +26,6 @@ export const Container = styled.div`
     flex-direction: column;
     max-height: auto;
     max-width: auto;
-    
   }
   @media screen and (max-width: 580px) {
     display: flex;
@@ -35,6 +33,8 @@ export const Container = styled.div`
     max-height: auto;
     max-width: auto;
     margin-left: 20px;
+    margin-top: 40px;
+    text-align: justify;
   }
   @media screen and (max-width: 380px) {
     display: flex;
@@ -42,6 +42,8 @@ export const Container = styled.div`
     max-height: auto;
     max-width: auto;
     margin-left: 20px;
+    margin-top: 40px;
+    text-align: justify;
   }
 `;
 
