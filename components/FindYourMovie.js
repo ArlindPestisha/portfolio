@@ -224,9 +224,9 @@ export const ImageWrapperLeft = styled.div`
 
 export const TextWrapperPagination = styled.div`
   font-family: sans-serif;
-  width: 138px;
+  /* width: 138px;
   height: 66px;
-  line-height: 9px;
+  line-height: 9px; */
 `;
 
 export const TextColor = styled.div`

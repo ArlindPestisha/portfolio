@@ -24,7 +24,7 @@ const PortfolioCase = () => {
   return (
     <Container>
       <WrapperImg>
-        <Image src="/tgl.svg" width={1110} height={500} />
+        <Image src="/portfolioBaner.svg" width={1110} height={500} />
       </WrapperImg>
       <Wrapper>
         <TextWrapper>
@@ -59,7 +59,7 @@ const PortfolioCase = () => {
 
       {/* Fix this part in a component */}
       <WrapperPagination>
-        <Link href="/portfolio/FindMovie">
+        <Link href="/portfolio/Tgl">
           <ButtonRight>
             <ImageWrapperRight>
               <Image src="/arrow-left.svg" width={8} height={16} />
@@ -70,16 +70,17 @@ const PortfolioCase = () => {
             </TextWrapperPagination>
           </ButtonRight>
         </Link>
-
-        <ButtonLeft>
-          <TextWrapperPagination>
-            <h1>Find Your Movie</h1>
-            <h4>Next Project</h4>
-          </TextWrapperPagination>
-          <ImageWrapperLeft>
-            <Image src="/arrow-right.svg" width={8} height={16} />
-          </ImageWrapperLeft>
-        </ButtonLeft>
+        <Link href="/portfolio/FindMovie">
+          <ButtonLeft>
+            <TextWrapperPagination>
+              <h1>Find Your Movie</h1>
+              <h4>Next Project</h4>
+            </TextWrapperPagination>
+            <ImageWrapperLeft>
+              <Image src="/arrow-right.svg" width={8} height={16} />
+            </ImageWrapperLeft>
+          </ButtonLeft>
+        </Link>
       </WrapperPagination>
       {/* <Pagination>
         <Link href="/portfolio/Tgl">

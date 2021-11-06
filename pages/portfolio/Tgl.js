@@ -38,7 +38,6 @@ const Tgl = () => {
             <Text paragraph="HTML / CSS / JS" /> */}
             <p>Interaction Design / Front End Development</p>
             <p>HTML / CSS / JS</p>
-
           </TextColor>
 
           <ButtonWrapper>
@@ -60,27 +59,29 @@ const Tgl = () => {
 
       {/* Fix this part in a component */}
       <WrapperPagination>
-        <Link href="/portfolio/grp">
+        <Link href="/portfolio/FindMovie">
           <ButtonRight>
             <ImageWrapperRight>
               <Image src="/arrow-left.svg" width={8} height={16} />
             </ImageWrapperRight>
             <TextWrapperPagination>
-              <h1>GRP</h1>
+              <h1>Find your Movie</h1>
               <h4>Previous Project</h4>
             </TextWrapperPagination>
           </ButtonRight>
         </Link>
 
-        <ButtonLeft>
-          <TextWrapperPagination>
-            <h1>yes</h1>
-            <h4>yes</h4>
-          </TextWrapperPagination>
-          <ImageWrapperLeft>
-            <Image src="/arrow-right.svg" width={8} height={16} />
-          </ImageWrapperLeft>
-        </ButtonLeft>
+        <Link href="/portfolio/PortfolioCase">
+          <ButtonLeft>
+            <TextWrapperPagination>
+              <h1>Portfolio</h1>
+              <h4>Next Project</h4>
+            </TextWrapperPagination>
+            <ImageWrapperLeft>
+              <Image src="/arrow-right.svg" width={8} height={16} />
+            </ImageWrapperLeft>
+          </ButtonLeft>
+        </Link>
       </WrapperPagination>
       {/* <Pagination>
         <Link href="/portfolio/Tgl">

@@ -18,7 +18,7 @@ const Portfolio = () => {
         </Link>
       </ProjectCards>
       <ProjectCards
-        src="/codava.svg"
+        src="/portfolio.svg"
         width={540}
         height={500}
         heading="Portfolio"
@@ -29,7 +29,7 @@ const Portfolio = () => {
         </Link>
       </ProjectCards>
       <ProjectCards
-        src="/grp.svg"
+        src="/findmovie.svg"
         width={540}
         height={500}
         heading="Find Your Movie"
