@@ -13,6 +13,7 @@ import {
   ButtonLeft,
   ImageWrapperLeft,
   TextColor,
+  Anchor,
 } from "../../components/TglStyled";
 import Image from "next/image";
 import Text from "../../components/Text/Text";
@@ -49,8 +50,15 @@ const Tgl = () => {
         <TextWrapper2>
           <Text
             heading4="Project Background"
-            paragraph="This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style."
+            paragraph="This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.
+            "
           />
+          <Link href="https://thegoodlist.com/">
+            <a>
+              <Anchor>The Good List Website</Anchor>
+            </a>
+          </Link>
+
           {/* <Text heading4="Static Previews" />
           <Image src="/tgl.svg" width={635} height={400} />
           <Image src="/tgl.svg" width={635} height={400} /> */}

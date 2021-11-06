@@ -255,3 +255,18 @@ export const TextColor = styled.div`
   line-height: 30px;
   color: #5fb4a2;
 `;
+export const Anchor = styled.a`
+  color: #33323d;
+  text-decoration: none;
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+  &:hover {
+    color: #5fb4a2;
+  }
+`
