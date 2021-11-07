@@ -50,7 +50,7 @@ const Tgl = () => {
         <TextWrapper2>
           <Text
             heading4="Project Background"
-            paragraph="This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.
+            paragraph="A platform to connect companies and creative freelancers. I built this using NextJS, SASS and Contentful CMS. The platform is designed to be fully responsive. During this project I had to work with multiple stakeholders: the client, my team, graphic designers and myself. 
             "
           />
           <Link href="https://thegoodlist.com/">

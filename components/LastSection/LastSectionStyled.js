@@ -6,13 +6,23 @@ export const SectionWrapper = styled.div`
   width: 1200px;
   justify-content: space-between;
   padding-top: 20px;
-  margin-top: 100px;
+  /* margin-top: 100px;
   margin-bottom: 50px;
-  margin-left: 120px;
-  @media screen and (max-width: 960px) {
+  margin-left: 120px; */
+  margin: auto;
+  @media screen and (max-width: 1300px) {
+    display: flex;
     max-width: -moz-available;
     max-width: -webkit-fill-available;
-    
+    align-items: center;
+    margin: 40px;
+  }
+  @media screen and (max-width: 960px) {
+    display: flex;
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
+    align-items: center;
+    margin: 40px;
   }
   @media screen and (max-width: 780px) {
     display: flex;
@@ -81,6 +91,9 @@ export const Line = styled.div`
   border-top-width: 0px;
   margin-top: 88px;
   margin-left: 40px;
+  @media screen and (max-width: 1300px) {
+    width: 250px;
+  }
   @media screen and (max-width: 960px) {
     width: 200px;
   }

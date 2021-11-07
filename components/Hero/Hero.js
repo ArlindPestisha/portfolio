@@ -7,9 +7,8 @@ const Hero = ({ children }) => {
     <HeroWrapper>
       <ImageWrapper>
         <Image
-          src="/carbon(1).svg"
+          src="/hero.png"
           alt="Picture of the author"
-          // layout="responsive"
           width={1110}
           height={600}
         />

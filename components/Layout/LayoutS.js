@@ -10,7 +10,7 @@ export const Container = styled.div`
     padding: 0;
     overflow: hidden;
   }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1300px) {
     margin: 0;
     padding: 0;
     overflow: hidden;

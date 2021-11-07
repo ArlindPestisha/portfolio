@@ -4,6 +4,17 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: auto;
+  margin: 40px;
+  @media screen and (max-width: 1600px) {
+    display: flex;
+    justify-content: start;
+    width: auto;
+  }
+  @media screen and (max-width: 1300px) {
+    display: flex;
+    justify-content: start;
+    width: auto;
+  }
   @media screen and (max-width: 980px) {
     display: flex;
     justify-content: start;
@@ -28,11 +39,16 @@ export const WrapperImg = styled.div`
   height: auto;
   /* width: 1110px;
   height: 500px; */
-  margin-left: 170px;
+  margin: auto;
   margin-top: 30px;
+  @media screen and (max-width: 1300px) {
+    max-width: fit-content;
+    margin: auto;
+    height: auto;
+  }
   @media screen and (max-width: 980px) {
     max-width: fit-content;
-    margin-left: 0;
+    margin: auto;
     height: auto;
   }
   @media screen and (max-width: 780px) {
@@ -57,7 +73,14 @@ export const Wrapper = styled.div`
   height: auto;
   display: flex;
   align-items: center;
-  margin-left: 170px;
+  margin: auto;
+  @media screen and (max-width: 1300px) {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: flex-start;
+    margin: auto;
+  }
   @media screen and (max-width: 980px) {
     display: flex;
     flex-direction: row;
@@ -89,8 +112,13 @@ export const TextWrapper = styled.div`
   border-bottom: 2px solid #979797; */
   margin-right: 100px;
   /* margin-bottom: 370px; */
+  @media screen and (max-width: 1200px) {
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+  }
   @media screen and (max-width: 980px) {
-    margin-bottom: 0;
+    margin-bottom: 30px;
     width: auto;
     height: auto;
   }
@@ -98,23 +126,27 @@ export const TextWrapper = styled.div`
     margin-bottom: 0;
     width: auto;
     height: auto;
+    margin-right: 0px;
   }
   @media screen and (max-width: 580px) {
     margin-top: 30px;
     margin-bottom: 0px;
     width: auto;
+    margin-right: 0px;
   }
   @media screen and (max-width: 480px) {
     margin-bottom: 0px;
     width: auto;
     margin-left: 0px;
     height: auto;
+    margin-right: 0px;
   }
   @media screen and (max-width: 380px) {
     margin-bottom: 0px;
     margin-top: 30px;
     width: auto;
     height: auto;
+    margin-right: 0px;
   }
 `;
 
@@ -141,20 +173,30 @@ export const TextWrapper2 = styled.div`
   }
   margin-left: 50px;
   /* margin-bottom: 800px; */
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1200px) {
+    width: auto;
+    height: none;
+  }
+  @media screen and (max-width: 980px) {
     margin-bottom: 0px;
     margin-left: 0;
     width: auto;
     height: none;
   }
+  @media screen and (max-width: 780px) {
+    margin-bottom: 30px;
+    margin-left: 0;
+    width: auto;
+    height: none;
+  }
   @media screen and (max-width: 580px) {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     width: auto;
     margin-left: 0px;
     height: auto;
   }
   @media screen and (max-width: 480px) {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     width: auto;
     margin-left: 0px;
     height: auto;
@@ -177,6 +219,25 @@ export const WrapperPagination = styled.div`
   margin-top: 100px;
   display: flex;
   flex-direction: row;
+  @media screen and (max-width: 1600px) {
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  @media screen and (max-width: 1300px) {
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
+    margin: auto;
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 980px) {
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
   @media screen and (max-width: 780px) {
     max-width: -moz-available;
     max-width: -webkit-fill-available;
@@ -265,8 +326,8 @@ export const Anchor = styled.a`
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  
+
   &:hover {
     color: #5fb4a2;
   }
-`
+`;
