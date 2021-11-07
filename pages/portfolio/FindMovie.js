@@ -13,6 +13,7 @@ import {
   ButtonLeft,
   ImageWrapperLeft,
   TextColor,
+  Anchor,
 } from "../../components/FindYourMovie.js";
 import Image from "next/image";
 import Text from "../../components/Text/Text";
@@ -27,17 +28,15 @@ const Tgl = () => {
         <Image src="/findyoumovie.svg" width={1110} height={500} />
       </WrapperImg>
       <Wrapper>
-        <TextWrapper>
+        {/* <TextWrapper>
           <Text
-            heading="Manage"
+            heading="Find Your Movie"
             paragraph="This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.
           "
           />
           <TextColor>
-            {/* <Text paragraph="Interaction Design / Front End Development" />
-            <Text paragraph="HTML / CSS / JS" /> */}
             <p>Interaction Design / Front End Development</p>
-            <p>HTML / CSS / JS</p>
+            <p>REACT / CSS / FIGMA</p>
           </TextColor>
 
           <ButtonWrapper>
@@ -45,12 +44,21 @@ const Tgl = () => {
               <StyledButton primary>GO TO PORTFOLIO</StyledButton>
             </Link>
           </ButtonWrapper>
-        </TextWrapper>
+        </TextWrapper> */}
         <TextWrapper2>
           <Text
-            heading4="Project Background"
-            paragraph="This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style."
+            heading4="Find Your Movie"
+            paragraph="A fun project with a pretty cool outcome. The goal was to find the next movie to watch. Too much time is spent scrolling on Netflix. Find Your Movie was created to find a solution to that. I used React and CSS aswell as React Testing Library to build the website and the content came from linking OMDB’s API."
           />
+          <Link href="https://movietest-six.vercel.app/">
+            <a>
+              <Anchor>Find Your Movie Website</Anchor>
+            </a>
+          </Link>
+          <TextColor>
+            <p>Interaction Design / Front End Development</p>
+            <p>REACT / CSS / FIGMA</p>
+          </TextColor>
           {/* <Text heading4="Static Previews" />
           <Image src="/tgl.svg" width={635} height={400} />
           <Image src="/tgl.svg" width={635} height={400} /> */}

@@ -11,7 +11,7 @@ const Portfolio = () => {
         width={540}
         height={500}
         heading="The Good List"
-        paragraph="This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider."
+        paragraph="This project required me to build a fully responsive landing page to the designs provided. I used NextJS, along with SASS and Contentful CMS."
       >
         <Link href="/portfolio/Tgl">
           <StyledButton primary>VIEW PROJECT</StyledButton>
@@ -22,7 +22,7 @@ const Portfolio = () => {
         width={540}
         height={500}
         heading="Portfolio"
-        paragraph="This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider."
+        paragraph="This is a project that I am proud of because my main goal for this project was to learn a new technology which I enjoyed a lot to work with styled-components."
       >
         <Link href="/portfolio/PortfolioCase">
           <StyledButton primary>VIEW PROJECT</StyledButton>
@@ -33,7 +33,7 @@ const Portfolio = () => {
         width={540}
         height={500}
         heading="Find Your Movie"
-        paragraph="This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider."
+        paragraph="This is a side project that I have build to learn my React skills, and also to try out how to do testing with React Testing Library."
       >
         <Link href="/portfolio/FindMovie">
           <StyledButton primary>VIEW PROJECT</StyledButton>

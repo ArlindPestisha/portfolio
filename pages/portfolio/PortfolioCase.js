@@ -27,15 +27,13 @@ const PortfolioCase = () => {
         <Image src="/portfolioBaner.svg" width={1110} height={500} />
       </WrapperImg>
       <Wrapper>
-        <TextWrapper>
+        {/* <TextWrapper>
           <Text
             heading="Manage"
             paragraph="This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.
           "
           />
           <TextColor>
-            {/* <Text paragraph="Interaction Design / Front End Development" />
-            <Text paragraph="HTML / CSS / JS" /> */}
             <p>Interaction Design / Front End Development</p>
             <p>HTML / CSS / JS</p>
           </TextColor>
@@ -45,12 +43,16 @@ const PortfolioCase = () => {
               <StyledButton primary>GO TO PORTFOLIO</StyledButton>
             </Link>
           </ButtonWrapper>
-        </TextWrapper>
+        </TextWrapper> */}
         <TextWrapper2>
           <Text
-            heading4="Project Background"
-            paragraph="This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style."
+            heading4="Portfolio"
+            paragraph="Apart from the obvious - showing my projects, I built this portfolio as a reason to try out my Styled Components skills. Built with NextJS."
           />
+          <TextColor>
+            <p>Interaction Design / Front End Development</p>
+            <p>NextJS / Styled-Components / Figma</p>
+          </TextColor>
           {/* <Text heading4="Static Previews" />
           <Image src="/tgl.svg" width={635} height={400} />
           <Image src="/tgl.svg" width={635} height={400} /> */}

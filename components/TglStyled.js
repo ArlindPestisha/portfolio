@@ -166,7 +166,7 @@ export const ButtonWrapper = styled.div`
 export const TextWrapper2 = styled.div`
   width: 635px;
   height: auto;
-  margin-bottom: 180px;
+  /* margin-bottom: 240px; */
   ${
     "" /* border-top: 2px solid #979797;
   border-bottom: 2px solid #979797; */
@@ -178,7 +178,7 @@ export const TextWrapper2 = styled.div`
     height: none;
   }
   @media screen and (max-width: 980px) {
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     margin-left: 0;
     width: auto;
     height: none;

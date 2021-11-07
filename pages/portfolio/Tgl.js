@@ -28,17 +28,16 @@ const Tgl = () => {
         <Image src="/tgl.svg" width={1110} height={500} />
       </WrapperImg>
       <Wrapper>
-        <TextWrapper>
+        {/* <TextWrapper>
           <Text
-            heading="Manage"
-            paragraph="This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.
+            heading="The Good List"
+            paragraph="This project required me to build a fully responsive landing page to the designs provided. I used , along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.
           "
           />
           <TextColor>
-            {/* <Text paragraph="Interaction Design / Front End Development" />
-            <Text paragraph="HTML / CSS / JS" /> */}
+            
             <p>Interaction Design / Front End Development</p>
-            <p>HTML / CSS / JS</p>
+            <p>NEXTJS / SASS / CONTENTFUL</p>
           </TextColor>
 
           <ButtonWrapper>
@@ -46,7 +45,7 @@ const Tgl = () => {
               <StyledButton primary>GO TO PORTFOLIO</StyledButton>
             </Link>
           </ButtonWrapper>
-        </TextWrapper>
+        </TextWrapper> */}
         <TextWrapper2>
           <Text
             heading4="Project Background"
@@ -58,6 +57,10 @@ const Tgl = () => {
               <Anchor>The Good List Website</Anchor>
             </a>
           </Link>
+          <TextColor>
+            <p>Interaction Design / Front End Development</p>
+            <p>NextJS / SASS / Contentful CMS</p>
+          </TextColor>
 
           {/* <Text heading4="Static Previews" />
           <Image src="/tgl.svg" width={635} height={400} />

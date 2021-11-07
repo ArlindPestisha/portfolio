@@ -166,7 +166,7 @@ export const ButtonWrapper = styled.div`
 export const TextWrapper2 = styled.div`
   width: 635px;
   height: auto;
-  margin-bottom: 180px;
+  /* margin-bottom: 180px; */
   ${
     "" /* border-top: 2px solid #979797;
   border-bottom: 2px solid #979797; */
