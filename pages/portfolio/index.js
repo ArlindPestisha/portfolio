@@ -33,7 +33,7 @@ const Portfolio = () => {
         width={540}
         height={500}
         heading="Find Your Movie"
-        paragraph="This is a side project that I have build to learn my React skills, and also to try out how to do testing with React Testing Library."
+        paragraph="This is a side project that I have built to develop my React skills, and also to try out how to test with React Testing Library."
       >
         <Link href="/portfolio/FindMovie">
           <StyledButton primary>VIEW PROJECT</StyledButton>

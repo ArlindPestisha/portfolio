@@ -6,6 +6,12 @@ export const AboutWrapper = styled.div`
   flex-direction: row;
   margin-top: 150px;
   flex-wrap: wrap;
+  @media screen and (max-width: 580px) {
+    margin-top: 60px;
+  }
+  @media screen and (max-width: 380px) {
+    margin-top: 60px;
+  }
 `;
 
 export const ImageWrapper = styled.div`
